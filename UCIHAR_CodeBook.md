@@ -10,30 +10,30 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:
 '_xyz' is used to denote 3-axial signals in the X, Y and Z directions.
 
-time_bodyacc_xyz
-time_gravityacc_xyz
-time_bodyaccjerk_xyz
-time_bodygyro_xyz
-time_bodygyrojerk_xyz
-time_bodyaccmag
-time_gravityaccmag
-time_bodyaccjerkmag
-time_bodygyromag
-time_bodygyrojerkmag
-freq_bodyacc_xyz
-freq_bodyaccjerk_xyz
-freq_bodygyro_xyz
-freq_bodyaccmag
-freq_bodyaccjerkmag
-freq_bodygyromag
-freq_bodygyrojerkmag
+* time_bodyacc_xyz
+* time_gravityacc_xyz
+* time_bodyaccjerk_xyz
+* time_bodygyro_xyz
+* time_bodygyrojerk_xyz
+* time_bodyaccmag
+* time_gravityaccmag
+* time_bodyaccjerkmag
+* time_bodygyromag
+* time_bodygyrojerkmag
+* freq_bodyacc_xyz
+* freq_bodyaccjerk_xyz
+* freq_bodygyro_xyz
+* freq_bodyaccmag
+* freq_bodyaccjerkmag
+* freq_bodygyromag
+* freq_bodygyrojerkmag
 
 The set of variables that were estimated from these signals are:
 
-mean -  Mean value
-std - Standard deviation
+* mean -  Mean value
+* std - Standard deviation
 
 Additional data include:
 
-subject - numeric identifer for grouping data
-activity - the action being performed when measurements were taken
+* subject - numeric identifer for grouping data
+* activity - the action being performed when measurements were taken
